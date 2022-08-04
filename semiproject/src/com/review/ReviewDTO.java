@@ -7,6 +7,7 @@ public class ReviewDTO {
 	private String subject;
 	private String content;
 	private String savepath;		
+	private int hitcount;
 	public int getNum() {
 		return num;
 	}
@@ -37,6 +38,12 @@ public class ReviewDTO {
 	public void setSavepath(String savepath) {
 		this.savepath = savepath;
 	}
+	public int getHitcount() {
+		return hitcount;
+	}
+	public void setHitcount(int hitcount) {
+		this.hitcount = hitcount;
+	}	
 
 	
 }
