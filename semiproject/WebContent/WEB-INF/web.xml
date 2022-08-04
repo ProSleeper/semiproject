@@ -10,7 +10,11 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
 
+<<<<<<< HEAD
 <!-- Servlet 게시판 -->
+=======
+<!-- Servlet 게시판
+>>>>>>> parent of 3bd8177 (ㅡㅓㅐㅣ)
 	<servlet>
 		<servlet-name>cartServlet</servlet-name>
 		<servlet-class>com.cart.CartServlet</servlet-class>
@@ -19,7 +23,12 @@
 		<servlet-name>cartServlet</servlet-name>
 		<url-pattern>/ywsemi/*</url-pattern>
 	</servlet-mapping>
+<<<<<<< HEAD
   
+=======
+   -->
+  <!-- 게시판 -->
+>>>>>>> parent of 3bd8177 (ㅡㅓㅐㅣ)
   <servlet>
     <servlet-name>writingServlet</servlet-name>
     <servlet-class>com.Writing.WritingServelt</servlet-class>
@@ -28,10 +37,25 @@
     <servlet-name>writingServlet</servlet-name>
     <url-pattern>/bbs/*</url-pattern>
   </servlet-mapping>
+<<<<<<< HEAD
 
 
   
    <servlet>
+=======
+  
+  <!-- 리뷰 -->
+  <servlet>
+    <servlet-name>ReviewServlet</servlet-name>
+    <servlet-class>com.review.ReviewServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReviewServlet</servlet-name>
+    <url-pattern>/review/*</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet>
+>>>>>>> parent of 3bd8177 (ㅡㅓㅐㅣ)
     <servlet-name>productServlet</servlet-name>
     <servlet-class>com.shop.ProductServlet</servlet-class>
   </servlet>
@@ -40,6 +64,10 @@
     <url-pattern>/shopping/*</url-pattern>
   </servlet-mapping>
   
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of 3bd8177 (ㅡㅓㅐㅣ)
   
 
 </web-app>
