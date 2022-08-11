@@ -258,7 +258,7 @@ public class MemberDAO {
 
 			pstmt = conn.prepareStatement(sql);
 			System.out.println(dto.getBirth());
-			// pstmt.setString(1, dto.getName()); 
+			// pstmt.setString(1, dto.getName());
 //			pstmt.setInt(1, dto.getNum());
 //			pstmt.setString(2, dto.getId());
 			pstmt.setString(1, dto.getPw());
@@ -294,7 +294,6 @@ public class MemberDAO {
 		try {
 
 			sql = "delete from member where id=?";
-			
 			
 			pstmt=conn.prepareStatement(sql);
 

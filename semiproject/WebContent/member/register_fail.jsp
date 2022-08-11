@@ -30,8 +30,8 @@
 <body background="<%=cp %>/img/member/background1.jpg">
 
 	<div class="wrap">
-		<div class="form-wrap" style="background-color: white;">
-			<button class="submit" onclick="goToLogin();">
+		<div class="form-wrap" style="background-color: lightgray;">
+			<button class="submit" style = "margin-top: 50%;" onclick="goToLogin();">
 				<font size="3pt" color="white">ID EXISTS OR IS ENTERED INCORRECTLY.</font> <font
 					size="3pt" color="white">PLEASE TRY AGAIN.</font>
 			</button>

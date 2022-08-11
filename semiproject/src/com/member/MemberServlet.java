@@ -114,7 +114,6 @@ public class MemberServlet extends HttpServlet {
 			String id = req.getParameter("login_id");
 			String pw = req.getParameter("login_pw");
 
-			
 
 			MemberDTO dto = dao.getReadData(id);
 
@@ -196,14 +195,7 @@ public class MemberServlet extends HttpServlet {
 			dto.setGender(req.getParameter("gender"));
 			dto.setBirth(req.getParameter("birth"));
 
-			System.out.println(dto.getId());
-			System.out.println(dto.getPw());
-			System.out.println(dto.getName());
-			System.out.println(dto.getEmail());
-			System.out.println(dto.getAddress());
-			System.out.println(dto.getTel());
-			System.out.println(dto.getGender());
-			System.out.println(dto.getBirth());
+		
 
 			dao.updateData(dto);
 
@@ -215,29 +207,21 @@ public class MemberServlet extends HttpServlet {
 
 		} else if (uri.indexOf("delete_ok.do") != -1) {
 			
-			
-			
-			
+
 			HttpSession session = req.getSession();
 			
-			String id = req.getParameter("id");
+			//System.out.println(req.getParameter("num"));
+			
+			String id = req.getParameter("mname");
 			MemberDTO dto = dao.getReadData(id);
-			
-			System.out.println("변수아이디" + id);
-			System.out.println("디티오아이디" +dto.getId());
-			
+
 			dao.delete(dto);
-
-
-			session = req.getSession();
 			session.removeAttribute("customInfo");
 			session.invalidate();
 
 			url = cp + "/index.jsp";
 			resp.sendRedirect(url);
-			
-			
-			
+
 		}else if(uri.indexOf("searchpwd.do")!=-1){
 			
 			//비밀번호 찾기

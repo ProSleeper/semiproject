@@ -74,11 +74,14 @@ $(document).ready(function() {
 				<div style="margin-top: 10px;">
 					<font size="2pt" color="black">${message }</font>
 				</div>
-				<input type="checkbox" class="checkbox"><span>Remember
-					Password</span>
+				<br/>
+				<br/>
+				<!-- <input type="checkbox" class="checkbox"><span>Remember
+					Password</span> -->
 				<button class="submit" onclick="loginMember();">
 					<font size="4pt" color="white">Login</font>
 				</button><br/>
+
 				<button class="submit" onclick="searchIt();">
 				<font size="2pt" color="white">Search Pwd</font>
 				</button>
@@ -91,7 +94,11 @@ $(document).ready(function() {
 					<input type="password" class="input-field" placeholder="Enter Password" name="reg_pw" required> 
 					<input type="text" class="input-field" placeholder="Your Name" name="reg_name" required> 
 					<input type="date" class="input-field" placeholder="YYYY-MM-DD" name="reg_birth" required>
-					<input type="checkbox" class="checkbox"><span>Terms and conditions</span>
+					<!-- <input type="checkbox" class="checkbox"><span>Terms and conditions</span> -->
+					<br/>
+					<br/>
+					<br/>
+					<br/>
 				<button class="submit" onclick="registerMember();">
 					<font size="3pt" color="white">REGISTER</font>					
 				</button>
@@ -116,7 +123,7 @@ $(document).ready(function() {
             function registerfunc(){
                 x.style.left = "-400px";
                 y.style.left = "50px";
-                z.style.left = "110px";
+                z.style.left = "120px";
             }
         </script>
 </body>
