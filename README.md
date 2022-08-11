@@ -28,7 +28,7 @@
 <br>
 ## 로그인
 
-[2로그인](https://user-images.githubusercontent.com/25880465/184064117-fe83f456-1870-43f8-a504-5320bb9f665d.jpg)
+![2로그인](https://user-images.githubusercontent.com/25880465/184064117-fe83f456-1870-43f8-a504-5320bb9f665d.jpg)
 <br>
 <br>
 ## 회원가입
