@@ -22,7 +22,8 @@
 <br>
 <br>
 ## 메인화면
-[1main](https://user-images.githubusercontent.com/25880465/184064115-20ba26fb-acbd-474d-881e-931b98ccd0ca.JPG)
+
+![1main](https://user-images.githubusercontent.com/25880465/184064115-20ba26fb-acbd-474d-881e-931b98ccd0ca.JPG)
 <br>
 <br>
 ## 로그인
